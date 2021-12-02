@@ -41,13 +41,13 @@ Open a linux/Ubuntu terminal \
 </pre>
 <br><br>
 
-Open new command window & load your mininet model in it
+Open new command window & load your  <a href="./Topology Files/ex_simple.py">mininet model</a> in it
 <pre>
 >> sudo mn --custom ex_simple.py --topo simple_topo --controller=remote
 </pre>
 
 Open another command window & start the ryu-controller in it \
-Run ryu-controller using your ryu_multipath.py code
+Run ryu-controller using your <a href="./ryu_multipath.py">ryu_multipath.py</a> code
 <pre>
 >> ryu-manager --observe-links ryu_multipath.py
 </pre>
