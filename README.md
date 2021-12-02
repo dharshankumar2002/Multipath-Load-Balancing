@@ -4,7 +4,7 @@ Method of managing incoming traffic by distributing and sharing load fairly amon
 
 <br>
 <p align="left">
-  <img src="./Topology Diagrams/topology_diagram1.png" width="500" alt="example_Monthly_Trend_Forecasting_plot">
+  <img src="./Topology Diagrams/topology_diagram1.png" width="500" alt="example network topology">
 </p>
 
 
@@ -73,3 +73,14 @@ Algorithm will
 1. Find all possible path between source & destination hosts using DFS(Depth First Search)
 2. Find 2 most optimal paths out of all the available paths
 3. Install the corresponding flow entries from ryu controller to switch's group table using OpenFlow protocol
+
+<hr style=\"border:0.5px solid gray\"> </hr>
+<br>
+
+## Examples: Other Network Topologies 
+
+<p align="left">
+  <img src="./Topology Diagrams/topology_diagram3.png" width="300" alt="example network topology">
+  <img src="./Topology Diagrams/topology_diagram4.png" width="350" alt="example network topology">
+  <img src="./Topology Diagrams/topology_diagram2.png" width="400" alt="example network topology">
+</p>
