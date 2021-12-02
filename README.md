@@ -39,16 +39,19 @@ Open a linux/Ubuntu terminal \
 <pre>
 >> sudo apt install ryu-bin
 </pre>
+<br><br>
 
 Open new command window & load your mininet model in it
 <pre>
 >> sudo mn --custom ex_simple.py --topo simple_topo --controller=remote
 </pre>
 
-Open another command window & start the ryu-controller in it
+Open another command window & start the ryu-controller in it \
+Run ryu-controller using your ryu_multipath.py code
 <pre>
 >> ryu-manager --observe-links ryu_multipath.py
 </pre>
+<br>
 
 Ping from one host to another host in mininet
 <pre>
